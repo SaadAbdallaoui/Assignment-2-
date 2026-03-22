@@ -1,0 +1,15 @@
+Architecture:
+Embedding -> Bidirectional LSTM(64) -> Dropout -> Dense(64) -> Dropout -> Sigmoid
+
+Test Accuracy:
+0.8654000163078308
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.87      0.86      0.86      5000
+           1       0.86      0.87      0.87      5000
+
+    accuracy                           0.87     10000
+   macro avg       0.87      0.87      0.87     10000
+weighted avg       0.87      0.87      0.87     10000

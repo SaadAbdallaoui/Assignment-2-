@@ -1,0 +1,15 @@
+Best Parameters:
+{'clf__C': 2.0, 'tfidf__max_features': 20000, 'tfidf__ngram_range': (1, 2)}
+
+Test Accuracy:
+0.9023
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.91      0.89      0.90      5000
+           1       0.90      0.91      0.90      5000
+
+    accuracy                           0.90     10000
+   macro avg       0.90      0.90      0.90     10000
+weighted avg       0.90      0.90      0.90     10000

@@ -1,0 +1,4 @@
+Model,Accuracy
+TF-IDF + Logistic Regression,0.9023
+TF-IDF + Linear SVM,0.9009
+Bidirectional LSTM,0.8654000163078308
